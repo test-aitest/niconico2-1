@@ -68,14 +68,8 @@ electron-packager . niconico-slack --platform=darwin --arch=x64 --asar --electro
 (client/niconico-slack-darwin-x64/に.appが吐き出されている）
 ```
 
-## 実際に使う時
-1. 作成したスライドをGoogleスライドに変換する
-    - Googleスライド: そのままでOK
-    - Keynote: Googleスライド形式に変換 or イメージ出力してGoogleスライドにコピペ
-2. Googleスライドで再生する
-    - [プレゼンテーションを開始 ▽] > [プレゼンター表示]
-    - プレゼンテーション再生中に画面の最前面が奪われていないのを確認する
-3. あとはGoogleスライドを使ってプレゼンする
-
 ## License
 MIT
+
+ ## 参考資料
+ https://qiita.com/kengo92i/items/b1362ce1ab14180ff4bd

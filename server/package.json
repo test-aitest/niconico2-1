@@ -7,7 +7,6 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kengo IMAE",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
