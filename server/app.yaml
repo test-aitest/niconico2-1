@@ -1,8 +1,4 @@
 runtime: nodejs20
-
-env_variables:
-  SLACK_BOT_TOKEN: "xoxb-6885750353442-7303824565959-3xM4xydQc69ecIwNYRseuKuP"
-
 handlers:
   - url: /.*
     script: auto
