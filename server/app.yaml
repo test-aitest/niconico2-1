@@ -1,5 +1,7 @@
 runtime: nodejs20
-service: niconico-slack
+handlers:
+  - url: /.*
+    script: auto
 
 instance_class: "F1"
 automatic_scaling:
