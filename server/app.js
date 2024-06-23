@@ -37,8 +37,8 @@ app.post('/slack', async function (req, res) {
                 });
 
                 const parentMessage = response.data.messages[0];
-                if (parentMessage && parentMessage.text.includes('[CS]')) {
-                    // 親メッセージに[CS]が含まれているか確認する
+                if (parentMessage && parentMessage.text.includes('ニコニコ起動')) {
+                    // 親メッセージに「ニコニコ起動」が含まれているか確認する
                     console.log(event.text);
                     io.emit('message', event.text);
                 }
