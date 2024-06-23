@@ -1,4 +1,4 @@
-runtime: nodejs10
+runtime: nodejs20
 service: niconico-slack
 
 instance_class: "F1"

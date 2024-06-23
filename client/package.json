@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kengo92i",
   "license": "MIT",
   "dependencies": {
     "electron-node-config": "^1.1.0",
