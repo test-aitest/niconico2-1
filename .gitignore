@@ -17,3 +17,6 @@ npm-debug.log
 
 # ignore electron
 niconico-slack-darwin-x64
+
+# ignore env
+.env
