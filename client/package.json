@@ -7,11 +7,18 @@
     "node": ">= 10.15.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "test": "mocha",
+    "lint": "eslint ."
   },
   "license": "MIT",
   "dependencies": {
-    "electron-node-config": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "electron": "^31.0.2",
     "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "mocha": "^10.4.0"
   }
 }
